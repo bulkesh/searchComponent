@@ -1,0 +1,32 @@
+<div id="SearchContainer" class="pos_rel pad-0 mar-0 width-full bg-color height-60">
+  <span class="glyphicon glyphicon-search mar-left"></span>
+  <input type="text" class="input fontstyle width-half height-40 pad-r" ng-model="sctrl.SearchClient" ng-change="sctrl.onSearch({searchKey: sctrl.SearchClient})"  placeholder="SEARCH (Client Name/ Policy Number)" />
+</div>
+
+
+<div ng-repeat="client in sctrl.myClient" ng-class="'bg-color' + ($index % 2)">
+  <div class="container">
+    <div class="well well-lg pad-l mar-bot height-100 border-r bg-s bg-n">
+
+
+      <div class="col-xs-12" style="font-size: 24px;">
+        {{ client.name}}
+      </div>
+
+      <div class="col-xs-3" style="font-size: 16px;">
+        <div style="background-image:url('../images/phone-icon-small.png');" class="image-w image-h bg-norepeat col-xs-1"> </div>
+        <div>{{ client.phonenumber}}</div>
+      </div>
+
+      <div class="col-xs-3" style="font-size: 16px;">
+        <div style="background-image:url('../images/email_icon.png');" class="image-w image-h bg-norepeat col-xs-1"> </div>
+        <div>{{ client.eid}}</div>
+      </div>
+
+      <div class="col-xs-3" style="font-size: 16px;">
+        <div style="background-image:url('../images/images.png');" class="image-w image-h bg-norepeat col-xs-1"> </div>
+        <div>Policy No. {{ client.policynumber}}</div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+{
+	"clients" : [
+		{
+			"name": "Ann Liebmann",
+			"phonenumber" : "+27-61-453-5444",
+			"eid" : "ann.lieb@gmail.com",
+			"policynumber" : "0013983887"
+		},
+		{
+			"name": "Ann Summer",
+			"phonenumber" : "+27-61-453-5444",
+			"eid" : "ann.summer@gmail.com",
+			"policynumber" : "0013983887"
+		},
+		{
+			"name": "Anabella Samuel",
+			"phonenumber" : "+27-61-453-5444",
+			"eid" : "ann.samuel@gmail.com",
+			"policynumber" : "0013983887"
+		},
+		{
+			"name": "Bob Mario",
+			"phonenumber" : "+27-61-453-5444",
+			"eid" : "bob.mario@gmail.com",
+			"policynumber" : "0013983887"
+		},
+		{
+			"name": "Bulkesh Kumawat",
+			"phonenumber" : "+27-61-453-5444",
+			"eid" : "bkumawat@gmail.com",
+			"policynumber" : "0013983887"
+		}
+		
+	]
+}
